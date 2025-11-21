@@ -485,9 +485,8 @@ STEPS ↓
 
 #steps .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  /* border: 2px solid orange; */
 }
 
 .steps__desc, 
@@ -505,22 +504,22 @@ STEPS ↓
     align-items: flex-start;
     margin-top: 32px;
 }
-/* .steps__grid {
-  position: absolute;
-  bottom: -100px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 10rem;
-  height: 10rem 160px;
-  opacity: 0.8;
-  z-index: -10;
-  color: rgb(100, 21, 255);
-  fill: currentColor;
-} */
 
 .steps__img{
-    width:100%;
     z-index: 2;
+}
+
+.steps__grid{
+      position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
 .step__description{
@@ -531,12 +530,22 @@ STEPS ↓
     max-width: 320px;
 }
 
+.steps .section__title{
+  
+      font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
 .step__title{
         font-weight: 600;
     font-size: 20px;
     color: #243e63;
     line-height: 1;
 }
+
 
 .step__para{
     font-size: 14px;
@@ -553,19 +562,6 @@ STEPS ↓
     line-height: 1;
 }
 
-    .steps__grid{
-        position: absolute;
-        bottom: -100px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 10rem;
-        height: 10rem;
-        opacity: 0.8;
-        z-index: -10;
-        color: rgb(100, 21, 255);
-        fill: currentColor;
-        z-index:1
-}
 /* 
 
 VALUES ↓
@@ -610,6 +606,11 @@ VALUES ↓
  flex-direction: row;
 }
 
+.value__title{
+  display: flex;
+  align-items: center;
+}
+
 .value:nth-of-type(1){
       margin-top: 32px;
     margin-right: 32px;
@@ -626,11 +627,29 @@ VALUES ↓
     color: #243e63;
 }
 
-.value__img--briefcase,
+/* .value__img--briefcase,
 .value__img--dollarsign{
   width: 32px;
   height: 32px;
 
+} */
+
+.dollar,
+.brief{
+   border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dollar{
+  background-color: lightgreen;
+ 
+}
+
+.brief{
+background-color: lightcoral;
 }
 .value__img--dollarsign{
   background-color: lightgreen;
@@ -644,12 +663,6 @@ VALUES ↓
 }
 
 
-.values__list{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-
-}
 
 .value__para{
     margin-top: 16px;
