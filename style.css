@@ -338,7 +338,7 @@ FEATURES ↓
 }
 
 #features .container {
-  padding: 80px;
+  padding: 80px 0;
 }
 
 .section__tag {
@@ -1244,6 +1244,10 @@ footer {
   footer {
     padding: 80px 32px;
   }
+
+  .section__title{
+      font-size: 36px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1259,6 +1263,22 @@ footer {
   #pricing .row {
     margin-top: 40px;
   }
+  .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img{
+          width: 100%;
+        max-width: 448px;
+  }
+
+      .quality__description, .steps__description, .values__description, .testimonials__description {
+
+
+          padding: 0;
+        margin-top: 64px;
+        text-align: center;
+      }
+
+      .values__list{
+        margin: 0 auto;
+      }
 }
 
 @media (max-width: 640px) {
