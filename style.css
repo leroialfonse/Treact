@@ -439,7 +439,6 @@ QUALITY WORK ↓
   display: flex;
   flex-direction: column;
   max-width: 576px;
-  margin-right: 64px;
 }
 
 .quality__para {
@@ -1003,7 +1002,7 @@ START / CALL TO ACTION ↓
  
   display: flex;
   justify-content: space-around ;
-      padding: 96px 0;
+      padding: 96px 24px;
     width: 100%;
     background-color: rgb(100, 21, 255);
     border-radius: 16px;
@@ -1097,6 +1096,7 @@ footer {
   margin-bottom: -32px;
   position: relative;
   overflow: hidden;
+
 }
 
 .footer__row {
@@ -1184,6 +1184,7 @@ footer {
 .footer__socials{
   display: flex;
 }
+
 .fb,
 .tw,
 .yt{
@@ -1237,10 +1238,16 @@ footer {
   .btn__menu {
     display: block;
   }
+
   header .row {
     flex-direction: column;
     align-items: center;
   }
+
+.nav__links{
+  display: none;
+}
+  
   footer {
     padding: 80px 32px;
   }
@@ -1266,20 +1273,112 @@ footer {
   .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img{
           width: 100%;
         max-width: 448px;
+        border: 2px solid red;
   }
 
       .quality__description, .steps__description, .values__description, .testimonials__description {
-
-
           padding: 0;
         margin-top: 64px;
         text-align: center;
       }
 
-      .values__list{
-        margin: 0 auto;
-      }
+.nav__links{
+  display: none;
 }
+  
+      
+.header__description{
+  width: 75%;
+  text-align:center;
+
+}
+
+.header__customers{
+  margin: 16px 0;
+  padding-right: 0;
+}
+
+.header__img{
+  max-width: 512px;
+}
+
+h1{
+
+  font-size: 30px;
+}
+      .services{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+      }
+
+
+      .service__para{
+        
+        width: 400px;
+      }
+
+      
+
+      .values__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .value{
+align-items: center;
+      }
+
+      .section__tag{
+          text-align: center;
+      }
+
+      .step{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .step__number{
+        margin-bottom: 16px;
+      }
+
+      .plans{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .plan{
+        margin-bottom: 32px;
+        margin-right: 0;
+        width: 100%;
+        max-width: 448px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.start__row{
+  flex-direction: column;
+  align-items: center;
+}
+
+.start__buttons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1px;
+  padding: 8px;
+}
+
+.footer{
+    padding: 64px 16px;
+  }   
+
+
+}
+
 
 @media (max-width: 640px) {
   .container {
