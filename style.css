@@ -95,7 +95,6 @@ nav {
   align-items: center;
   padding-top: 32px;
 
-  /* border: 2px solid green; */
 }
 
 .nav__row {
@@ -433,7 +432,6 @@ QUALITY WORK ↓
 .quality__description,
 .quality__img--wrapper {
   width: 50%;
-  /* border: 4px solid purple; */
 }
 .quality__description {
   display: flex;
@@ -648,7 +646,8 @@ VALUES ↓
 }
 
 .brief{
-background-color: lightcoral;
+background-color:#feb2b2;
+;
 }
 .value__img--dollarsign{
   background-color: lightgreen;
@@ -670,9 +669,7 @@ background-color: lightcoral;
   }
 .value{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    /* border: 2px solid orange; */
     margin: 24px;
 
 }
@@ -1273,7 +1270,6 @@ footer {
   .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img{
           width: 100%;
         max-width: 448px;
-        border: 2px solid red;
   }
 
       .quality__description, .steps__description, .values__description, .testimonials__description {
