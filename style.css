@@ -1199,15 +1199,13 @@ background-color: white;
   align-items: center;
 
 }
-/* 
-.fb,
-.tw,
-.yt{
-  
-  height: 24px;
-  width:24px;
 
-} */
+.footer__icon{
+  
+  /* height: 24px;
+  width:24px; */
+
+}
 
 .footer__blob--1{
       position: absolute;
