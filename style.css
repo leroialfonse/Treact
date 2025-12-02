@@ -1185,18 +1185,25 @@ footer {
   display: flex;
 }
 
+.footer__social--wrapper{
+background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+}
+
 .fb,
 .tw,
 .yt{
-  background-color: white;
-  border-radius: 50%;
+  
   height: 24px;
   width:24px;
   padding: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 8px;
+  
 
 }
 
