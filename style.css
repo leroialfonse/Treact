@@ -1183,6 +1183,9 @@ footer {
 
 .footer__socials{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .footer__social--wrapper{
@@ -1191,21 +1194,20 @@ background-color: white;
   width: 30px;
   height: 30px;
   margin: 8px;
-}
+  display: flex;
+  justify-content: center;  
+  align-items: center;
 
+}
+/* 
 .fb,
 .tw,
 .yt{
   
   height: 24px;
   width:24px;
-  padding: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
 
-}
+} */
 
 .footer__blob--1{
       position: absolute;
